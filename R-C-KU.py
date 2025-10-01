@@ -50,4 +50,4 @@ plt.gca().set_yticks(np.arange(0, 1.00, 0.005), minor=True)
 # Отключение tight_layout
 plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
 # plt.show()
-plt.savefig("R_C_K_U.jpg")
+plt.savefig("R_C_KU.jpg")
