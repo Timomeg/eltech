@@ -13,7 +13,7 @@ omega = 10**lg_omega
 
 # Формулы для цепей R-C и C-R
 omega_R1C = omega * R1 * C
-phi_R_C = -np.pi/2 + np.arctan(omega_R1C)
+phi_R_C = -np.pi/2 + np.arctan(1 / omega_R1C)
 phi_C_R =  np.arctan(1 / omega_R1C)
 phi_deg_R_C = np.degrees(phi_R_C)
 phi_deg_C_R = np.degrees(phi_C_R)
